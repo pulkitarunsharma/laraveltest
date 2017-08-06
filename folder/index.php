@@ -4,7 +4,7 @@ class Login{
     
     public $password;
     
-    protected function login($username,$password){
+    protected function login($username=null,$password=null){
         
         $this->username=$username;
         $this->password=$password;
