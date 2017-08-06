@@ -15,6 +15,14 @@ class Login{
         $this->username='';
         $this->password='';
     }
+    
+    
+     protected function branch($username,$password){
+        
+        $this->username='';
+        $this->password='';
+    }
+    
 }
 
 
